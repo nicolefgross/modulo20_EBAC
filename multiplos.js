@@ -1,4 +1,4 @@
-function multiplos(){
+function acharMultiplosDe5e7(){
     let soma = 0
 
     for (let indice = 0; indice < 1000; indice++) {
@@ -12,4 +12,4 @@ function multiplos(){
 }
 
 
-console.log(multiplos())
+module.exports = acharMultiplosDe5e7;

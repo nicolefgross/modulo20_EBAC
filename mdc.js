@@ -1,4 +1,4 @@
-function mdc(numero1, numero2) {
+function acharMdc(numero1, numero2) {
     let resto
     do {
         resto = numero1 % numero2
@@ -8,4 +8,4 @@ function mdc(numero1, numero2) {
     return numero1
 }
 
-console.log(mdc(24, 9))
+module.exports = acharMdc;
